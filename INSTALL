@@ -14,8 +14,8 @@ cd pip-1.5
 python setup.py install
 cd ..
 yum -y install gcc gcc-c++ python-devel
-yum install php-devel nginx php-mysql php php-fpm
-yum install salt-master salt-minion salt
+yum -y install php-devel nginx php-mysql php php-fpm
+yum -y install salt-master salt-minion salt
 pip install django
 pip install uwsgi
 pip install apscheduler paramiko
